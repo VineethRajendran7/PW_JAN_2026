@@ -27,13 +27,13 @@ await page.getByRole("link",{name:"Create Lead"}).click();
 // Locate the Company Name field using its ID and enter the company name
 await page.locator('#createLeadForm_companyName').fill("TestLeaf");
 
-// Locate the First Name field using its ID and enter the first name
-await page.locator("#createLeadForm_firstName").fill("Vineeth");
+// // Locate the First Name field using its ID and enter the first name
+// await page.locator("#createLeadForm_firstName").fill("Vineeth");
 
-// Locate the Last Name field using its ID and enter the last name
-await page.locator('#createLeadForm_lastName').fill("Rajendran");
+// // Locate the Last Name field using its ID and enter the last name
+// await page.locator('#createLeadForm_lastName').fill("Rajendran");
 
-// Locate the Submit button using its name attribute and click it
-await page.locator('[name="submitButton"]').click();
+// // Locate the Submit button using its name attribute and click it
+// await page.locator('[name="submitButton"]').click();
 
 });
